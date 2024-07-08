@@ -4,7 +4,7 @@ import (
 	"io"
 	"os"
 
-	"cloud.google.com/go/pubsub"
+	"cloud.com/go/pubsub"
 )
 
 func publishMessagesWithDelayedDelivery(w io.Writer, projectID, topicID string) error {
